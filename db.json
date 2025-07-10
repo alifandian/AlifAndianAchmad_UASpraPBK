@@ -1,88 +1,14 @@
 {
   "patients": [
-    {
-      "id": "1",
-      "name": "John Doe",
-      "age": 32,
-      "gender": "Female",
-      "room": "A101",
-      "status": "Admitted"
-    },
-    {
-      "id": "2",
-      "name": "Jane Smith",
-      "age": 28,
-      "gender": "Female",
-      "room": "B202",
-      "status": "Discharged"
-    },
-    {
-      "id": "3",
-      "name": "Michael Lee",
-      "age": 45,
-      "gender": "Male",
-      "room": "C303",
-      "status": "Admitted"
-    },
-    {
-      "id": null,
-      "name": "ghali ",
-      "age": 21,
-      "gender": "Male",
-      "room": "hola",
-      "status": "Discharged"
-    },
-    {
-      "id": null,
-      "name": "fjksdjfjks",
-      "age": 12,
-      "gender": "Male",
-      "room": "defs",
-      "status": "Admitted"
-    }
+    { "id": 1, "name": "John Doe", "age": 32, "gender": "Male", "room": "A101", "status": "Admitted" },
+    { "id": 2, "name": "Jane Smith", "age": 28, "gender": "Female", "room": "B202", "status": "Discharged" },
+    { "id": 3, "name": "Michael Lee", "age": 45, "gender": "Male", "room": "C303", "status": "Admitted" },
+    { "id": 4, "name": "Emily Clark", "age": 37, "gender": "Female", "room": "A102", "status": "Admitted" }
   ],
   "medications": [
-    {
-      "id": "M-001",
-      "patient": "John Doe",
-      "medication": "Paracetamol",
-      "dose": "500mg",
-      "status": "Pending"
-    },
-    {
-      "id": "M-002",
-      "patient": "Jane Smith",
-      "medication": "Ibuprofen",
-      "dose": "200mg",
-      "status": "Completed"
-    },
-    {
-      "id": "M-003",
-      "patient": "Michael Lee",
-      "medication": "Amoxicillin",
-      "dose": "250mg",
-      "status": "Pending"
-    },
-    {
-      "id": "M-004",
-      "patient": "Emily Clark",
-      "medication": "Cough Syrup",
-      "dose": "10ml",
-      "status": "Completed"
-    },
-    {
-      "id": "gahdsa",
-      "patient": "fds",
-      "medication": "fdfdd",
-      "dose": "fdfdfd",
-      "status": "Pending"
-    },
-    {
-      "id": "jadajk",
-      "patient": "ksnkndsk",
-      "medication": "dnkasndkl",
-      "dose": "klnsklnfksl",
-      "status": "Pending"
-    }
+    { "id": "M-001", "patient": "John Doe", "medication": "Paracetamol", "dose": "500mg", "status": "Pending" },
+    { "id": "M-002", "patient": "Jane Smith", "medication": "Ibuprofen", "dose": "200mg", "status": "Completed" },
+    { "id": "M-003", "patient": "Michael Lee", "medication": "Amoxicillin", "dose": "250mg", "status": "Pending" },
+    { "id": "M-004", "patient": "Emily Clark", "medication": "Cough Syrup", "dose": "10ml", "status": "Completed" }
   ]
 }
