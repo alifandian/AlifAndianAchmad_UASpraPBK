@@ -45,4 +45,4 @@ export const useMedicationStore = defineStore('medication', {
       }
     },
   },
-}) 
+})

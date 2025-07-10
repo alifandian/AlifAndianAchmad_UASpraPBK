@@ -49,4 +49,4 @@ describe('PatientsView.vue', () => {
     await wrapper.find('.add-btn').trigger('click')
     expect(wrapper.find('.modal').exists()).toBe(true)
   })
-}) 
+})

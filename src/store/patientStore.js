@@ -45,4 +45,4 @@ export const usePatientStore = defineStore('patient', {
       }
     },
   },
-}) 
+})

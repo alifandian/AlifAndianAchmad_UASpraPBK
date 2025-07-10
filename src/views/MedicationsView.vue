@@ -257,4 +257,4 @@ async function deleteOrder(id) {
 .cancel-btn:hover {
   background: #90a4ae;
 }
-</style> 
+</style>

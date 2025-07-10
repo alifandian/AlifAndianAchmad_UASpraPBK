@@ -109,4 +109,4 @@ const filteredUsers = computed(() => {
 .status.inactive {
   background: #e53935;
 }
-</style> 
+</style>

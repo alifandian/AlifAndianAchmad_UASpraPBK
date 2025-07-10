@@ -43,4 +43,4 @@ describe('medicationStore', () => {
     await store.deleteMedication('M-001')
     expect(store.medications.length).toBe(0)
   })
-}) 
+})

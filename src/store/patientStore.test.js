@@ -43,4 +43,4 @@ describe('patientStore', () => {
     await store.deletePatient(1)
     expect(store.patients.length).toBe(0)
   })
-}) 
+})
