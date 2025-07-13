@@ -107,6 +107,13 @@ npx vitest
    npx vitest --ui
 
 ```
+
+### jika ada salah satu unit gagal di jalankan maka ketik perintah ini terlebih dahulu sebelum menjalankan npx vitest --ui :
+
+```bash
+npx vitest --environment jsdom
+npx vitest --ui --environment jsdom
+```
 📄 Penjelasan Singkat Web
 Aplikasi ini dirancang untuk memudahkan pengelolaan data rumah sakit secara modern dan efisien.
 Setiap fitur utama seperti pasien, order obat, user, dan laporan sudah memiliki struktur CRUD dan siap dikembangkan lebih lanjut.
