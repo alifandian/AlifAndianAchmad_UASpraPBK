@@ -47,21 +47,62 @@
       "gender": "Male",
       "room": "111",
       "status": "Admitted"
+    },
+    {
+      "id": null,
+      "name": "dada",
+      "age": 11,
+      "gender": "Male",
+      "room": "1111",
+      "status": "Admitted"
+    },
+    {
+      "id": null,
+      "name": "hola",
+      "age": 22,
+      "gender": "Male",
+      "room": "333",
+      "status": "Admitted"
+    },
+    {
+      "id": null,
+      "name": "raju",
+      "age": 22,
+      "gender": "Male",
+      "room": "126",
+      "status": "Discharged"
+    },
+    {
+      "id": null,
+      "name": "jack",
+      "age": 22,
+      "gender": "Male",
+      "room": "121",
+      "status": "Discharged"
+    },
+    {
+      "id": null,
+      "name": "ded",
+      "age": 11,
+      "gender": "Male",
+      "room": "11",
+      "status": "Admitted"
+    },
+    {
+      "id": null,
+      "name": "asda",
+      "age": 22,
+      "gender": "Male",
+      "room": "22",
+      "status": "Admitted"
     }
   ],
   "medications": [
     {
       "id": "M-001",
-      "patient": "John Doe",
+      "patient": "johntor",
       "medication": "Paracetamol",
       "dose": "500mg",
-      "status": "Pending"
-    },
-    {
-      "id": "M-002",
-      "patient": "Jane Smith",
-      "medication": "Ibuprofen",
-      "dose": "200mg",
       "status": "Completed"
     },
     {

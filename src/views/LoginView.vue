@@ -3,17 +3,41 @@
     <div class="login-card">
       <div class="logo">🏥</div>
       <h2>Hospital Login</h2>
-      <form @submit.prevent>
-        <input type="text" placeholder="Username" class="input" />
-        <input type="password" placeholder="Password" class="input" />
-        <button class="login-btn">Login</button>
+      <form @submit.prevent="handleLogin">
+        <input 
+          type="text" 
+          placeholder="Username" 
+          class="input" 
+          v-model="username"
+        />
+        <input 
+          type="password" 
+          placeholder="Password" 
+          class="input" 
+          v-model="password"
+        />
+        <button type="submit" class="login-btn">Login</button>
       </form>
     </div>
   </div>
 </template>
 
 <script setup>
-// No real logic yet
+import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+const username = ref('')
+const password = ref('')
+
+const handleLogin = () => {
+  // Simpan status login ke localStorage
+  localStorage.setItem('isLoggedIn', 'true')
+  localStorage.setItem('username', username.value)
+  
+  // Redirect ke dashboard
+  router.push('/')
+}
 </script>
 
 <style scoped>

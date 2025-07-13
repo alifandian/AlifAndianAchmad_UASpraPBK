@@ -21,6 +21,9 @@
       </div>
     </div>
   </div>
+  <q-page>
+       <q-btn color="primary" label="Test Quasar" />
+     </q-page>
 </template>
 
 <script setup>
